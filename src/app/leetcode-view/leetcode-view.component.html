@@ -1,0 +1,56 @@
+<!-- Below are the stats:
+<br />
+<h4>totalSolved: {{ totalSolved }}</h4>
+<h4>totalQuestions: {{ totalQuestions }}</h4>
+<h4>easySolved: {{ easySolved }}</h4>
+<h4>mediumSolved: {{ mediumSolved }}</h4>
+<h4>hardSolved: {{ hardSolved }}</h4>
+<h4>acceptanceRate: {{ acceptanceRate }}</h4>
+<h4>ranking: {{ ranking }}</h4> -->
+
+<p>leetcode view works</p>
+<div
+  class="w-fit border-2 bg-gradient-to-r from-teal-200 to-teal-100 mt-5 mb-10 shadow-xl rounded-3xl pr-10 mx-3"
+>
+  <div class="flex flex-row pt-10 pb-0">
+    <div class="flex flex-col p-3">
+      <img
+        src="../../assets/varun_lc_avatar.png"
+        alt="leetcode-profile-img"
+        class="w-4/5 h-4/5 mt-2 ml-5 rounded-2xl"
+      />
+    </div>
+
+    <div class="flex flex-col my-10 pb-0 pr-5">
+      <div class="pb-7 pl-1 text-lg font-semibold text-green-500">
+        Easy: {{ easySolved }}
+      </div>
+      <div class="pb-7 pl-1 text-lg font-semibold text-yellow-500">
+        Medium: {{ mediumSolved }}
+      </div>
+      <div class="pl-1 text-lg font-semibold text-red-500">
+        Hard: {{ hardSolved }}
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-row">
+    <div class="flex flex-col pl-8 font-mono text-xl font-semibold">
+      Varun Arora
+    </div>
+    <div class="flex pb-7 pl-20 font-mono text-lg ml-4">
+      Rank:
+      <p class="font-semibold text-xl">{{ ranking }}</p>
+    </div>
+  </div>
+
+  <div class="flex flex-row">
+    <span class="pb-7 font-mono text-lg mt-2 ml-4 whitespace-nowrap">
+      Total Solved:
+      <p class="font-semibold pl-5">{{ totalSolved }}/{{ totalQuestions }}</p>
+    </span>
+    <div class="pl-10 pb-7 font-mono text-lg mt-2 ml-4">
+      Acceptance Rate:
+      <p class="font-semibold pl-10">{{ acceptanceRate }}%</p>
+    </div>
+  </div>
+</div>
