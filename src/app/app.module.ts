@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { LeetcodeViewComponent } from './leetcode-view/leetcode-view.component';
 import { ProjectsViewComponent } from './projects-view/projects-view.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { IntroComponentComponent } from './intro-component/intro-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LeetcodeViewComponent,
-    ProjectsViewComponent
+    ProjectsViewComponent,
+    IntroComponentComponent
   ],
   imports: [
     BrowserModule,
