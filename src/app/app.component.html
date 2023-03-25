@@ -1,17 +1,38 @@
 <div class="bg-teal-50 px-10">
-  <h1 class="p-10 font-burtons text-3xl font-bold underline">Hello world!</h1>
-  <div className="p-10"></div>
-  <p>My name is varun</p>
-
-  <!-- <app-leetcode-view
-    [totalSolved]="totalSolved"
-    [totalQuestions]="totalQuestions"
-    [acceptanceRate]="acceptanceRate"
-    [easySolved]="easySolved"
-    [mediumSolved]="mediumSolved"
-    [hardSolved]="hardSolved"
-    [ranking]="ranking"
-  ></app-leetcode-view> -->
-  <!-- <app-projects-view></app-projects-view> -->
   <app-intro-component></app-intro-component>
+
+  <div class="lg:flex lg:flex-row mb-10 mt-20 justify-between">
+    <app-leetcode-view
+      [totalSolved]="totalSolved"
+      [totalQuestions]="totalQuestions"
+      [acceptanceRate]="acceptanceRate"
+      [easySolved]="easySolved"
+      [mediumSolved]="mediumSolved"
+      [hardSolved]="hardSolved"
+      [ranking]="ranking"
+    ></app-leetcode-view>
+    <div class="w-1/3 mx-auto">
+      <div class="w-max tracking-wider text-xl p-3 font-burtons mb-20">
+        <a
+          id="githubLink"
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/VarunArora14"
+          class="p-3 rounded-2xl bg-gradient-to-r from-teal-400 to-teal-200 hover:from-pink-500 hover:to-yellow-500"
+        >
+          My Github Chart
+        </a>
+      </div>
+      <img
+        src="https://ghchart.rshah.org/008080/VarunArora14"
+        height="1000"
+        width="3000"
+        alt="Varun's Github chart"
+        class="scale-x-125 scale-y-150 w-fit"
+        s
+      />
+    </div>
+  </div>
+
+  <app-footer></app-footer>
 </div>

@@ -8,13 +8,15 @@ import { LeetcodeViewComponent } from './leetcode-view/leetcode-view.component';
 import { ProjectsViewComponent } from './projects-view/projects-view.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { IntroComponentComponent } from './intro-component/intro-component.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LeetcodeViewComponent,
     ProjectsViewComponent,
-    IntroComponentComponent
+    IntroComponentComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
