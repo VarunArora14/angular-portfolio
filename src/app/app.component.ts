@@ -7,15 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
-  totalSolved: number = 0;
-  totalQuestions: number = 0;
-  acceptanceRate: number = 0;
-  easySolved: number = 0;
-  mediumSolved: number = 0;
-  hardSolved: number = 0;
-  ranking: 0;
+  totalSolved: number = 682;
+  totalQuestions: number = 2539;
+  acceptanceRate: number = 72.07;
+  easySolved: number = 217;
+  mediumSolved: number = 403;
+  hardSolved: number = 62;
+  ranking: 25538;
 
-  constructor(private httpClient: HttpClient) {}
+  constructor(private httpClient: HttpClient) { }
 
   ngOnInit() {
     // async get request using observables
