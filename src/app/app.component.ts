@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
   easySolved: number = 217;
   mediumSolved: number = 403;
   hardSolved: number = 62;
-  ranking: 25538;
+  ranking: number = 25538;
 
   constructor(private httpClient: HttpClient) { }
 
